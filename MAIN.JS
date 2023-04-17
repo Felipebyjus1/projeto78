@@ -1,0 +1,25 @@
+console.log("isso são testes, entrada só para autorizados")
+var nome="Douglas"
+console.log(nome)
+var sobrenome="Alberto Silva"
+console.log(sobrenome)
+var nomecompleto=nome.concat(" ").concat(sobrenome)
+console.log(nomecompleto)
+var comprimento=nomecompleto.length
+console.log(comprimento)
+var apresentação="olá Carla"
+console.log(apresentação)
+var substituição=apresentação.replace("Carla",nome)
+console.log(substituição)
+var maiuscula=nomecompleto.toUpperCase()
+var minuscula=nomecompleto.toLowerCase()
+console.log(maiuscula)
+console.log(minuscula)
+var raizquadrada=Math.sqrt(121)
+console.log(raizquadrada)
+var maiornúmero=Math.max(-324,-1,3534,98,0)
+console.log(maiornúmero)
+var menornúmero=Math.min(-324,-1,3534,98,0)
+console.log(menornúmero)
+var elevado=Math.pow(32,4)
+console.log(elevado)
